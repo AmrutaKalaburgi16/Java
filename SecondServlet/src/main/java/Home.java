@@ -41,6 +41,7 @@ public class Home extends HttpServlet {
             res.setContentType("text/html");
             res.getWriter().println("<h1>Welcome "+name+" from "+country+"</h1>"+
                     " <br/><a href='application-form'>Go Back</a>");
+        res.sendRedirect("Text");
 
 
     }

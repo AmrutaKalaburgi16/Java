@@ -4,25 +4,48 @@
 
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
-
+  <context-param>
+    <param-name>name</param-name>
+    <param-value>Amruta</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Surname</param-name>
+    <param-value>Kalaburgi</param-value>
+  </context-param>
   <servlet>
     <servlet-name>ApplicationFormServlet</servlet-name>
     <servlet-class>ApplicationFormServlet</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>Amruta Kalaburgi</param-value>
+    </init-param>
   </servlet>
 
   <servlet>
     <servlet-name>Home</servlet-name>
     <servlet-class>Home</servlet-class>
   </servlet>
-
+  <servlet>
+    <servlet-name>servletConfig_servletContext</servlet-name>
+    <servlet-class>servletConfig_servletContext</servlet-class>
+    <init-param>
+      <param-name>name</param-name>
+      <param-value>Amruta Kalaburgi</param-value>
+    </init-param>
+  </servlet>
   <servlet-mapping>
     <servlet-name>ApplicationFormServlet</servlet-name>
     <url-pattern>/application-form</url-pattern>
   </servlet-mapping>
   <servlet-mapping>
+    <servlet-name>servletConfig_servletContext</servlet-name>
+    <url-pattern>/Text</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
     <servlet-name>Home</servlet-name>
     <url-pattern>/form</url-pattern>
   </servlet-mapping>
+
 
 
 
