@@ -6,8 +6,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="FilterServlet" />
         <module name="Servlet" />
         <module name="SecondServlet" />
+        <module name="JSP" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

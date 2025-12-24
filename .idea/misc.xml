@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/Servlet/pom.xml" />
         <option value="$PROJECT_DIR$/Servlet_program/pom.xml" />
         <option value="$PROJECT_DIR$/SecondServlet/pom.xml" />
+        <option value="$PROJECT_DIR$/JSP/pom.xml" />
+        <option value="$PROJECT_DIR$/FilterServlet/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
