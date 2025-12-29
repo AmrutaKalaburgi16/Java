@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JAVA_PRACTICE.iml" filepath="$PROJECT_DIR$/JAVA_PRACTICE.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/Recursion/Recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchDSA/SearchDSA.iml" filepath="$PROJECT_DIR$/SearchDSA/SearchDSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SortDSA/SortDSA.iml" filepath="$PROJECT_DIR$/SortDSA/SortDSA.iml" />
     </modules>
   </component>
 </project>
